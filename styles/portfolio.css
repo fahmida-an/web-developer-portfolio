@@ -102,6 +102,10 @@ nav a{
 
 
 /* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About section */
 .about{
@@ -109,4 +113,21 @@ nav a{
     background: #FFF8F3;
     border-radius: 10px;
     margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+.info-description{
+    color: #474747;
 }
